@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "type": "square-textured",
+  "blend": false,
+  "textures": {
+    "top": "fabricskyboxes:sky/top_sunrise.png",
+    "bottom": "fabricskyboxes:sky/bottom_sunrise.png",
+    "north": "fabricskyboxes:sky/north_sunrise.png",
+    "south": "fabricskyboxes:sky/south_sunrise.png",
+    "east": "fabricskyboxes:sky/east_sunrise.png",
+    "west": "fabricskyboxes:sky/west_sunrise.png"
+  },
+  "properties": {
+    "fade": {
+      "startFadeIn": 22650,
+      "endFadeIn": 23166,
+      "startFadeOut": 23333,
+      "endFadeOut": 100
+    },
+    "shouldRotate": false,
+    "rotation": {
+      "axis": [
+        0.0,
+        -18.0,
+        0.0
+      ]
+    }
+  },
+  "conditions": {
+    "worlds": [
+      "minecraft:overworld"
+    ]
+  }
+}
