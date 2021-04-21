@@ -1,21 +1,21 @@
 {
   "schemaVersion": 2,
   "type": "square-textured",
-  "blend": false,
+  "blend": true,
   "textures": {
-    "top": "fabricskyboxes:sky/top_rain_sunset.png",
-    "bottom": "fabricskyboxes:sky/bottom_rain_sunset.png",
-    "north": "fabricskyboxes:sky/north_rain_sunset.png",
-    "south": "fabricskyboxes:sky/south_rain_sunset.png",
-    "east": "fabricskyboxes:sky/east_rain_sunset.png",
-    "west": "fabricskyboxes:sky/west_rain_sunset.png"
+    "top": "fabricskyboxes:sky/top_rain.png",
+    "bottom": "fabricskyboxes:sky/bottom_rain.png",
+    "north": "fabricskyboxes:sky/north_rain.png",
+    "south": "fabricskyboxes:sky/south_rain.png",
+    "east": "fabricskyboxes:sky/east_rain.png",
+    "west": "fabricskyboxes:sky/west_rain.png"
   },
   "properties": {
     "fade": {
-      "startFadeIn": 11500,
-      "endFadeIn": 12000,
-      "startFadeOut": 13000,
-      "endFadeOut": 13333
+      "startFadeIn": 23500,
+      "endFadeIn": 0,
+      "startFadeOut": 11666,
+      "endFadeOut": 12000
     },
 	"transitionSpeed": 0.01,
     "shouldRotate": true,
