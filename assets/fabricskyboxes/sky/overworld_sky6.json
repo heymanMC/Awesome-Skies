@@ -30,5 +30,8 @@
     "worlds": [
       "minecraft:overworld"
     ]
+  },
+    "blend": {
+	"type": "screen"
   }
 }
