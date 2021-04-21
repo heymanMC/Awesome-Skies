@@ -1,5 +1,5 @@
 # Awesome-Skies
-Resource pack for minecraft for use with FabricSkyboxes
+Resource pack for minecraft designed to be used with [FabricSkyboxes](https://github.com/AMereBagatelle/fabricskyboxes)
 
 **Day:**
 ![Day Sky](https://i.imgur.com/osxm3TF.jpg)
