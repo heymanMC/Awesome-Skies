@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "type": "square-textured",
-  "blend": true,
+  "blend": false,
   "textures": {
     "top": "fabricskyboxes:sky/top_stars.png",
     "bottom": "fabricskyboxes:sky/bottom_stars.png",
