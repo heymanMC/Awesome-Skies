@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "type": "square-textured",
-  "blend": true,
   "textures": {
     "top": "fabricskyboxes:sky/top_nightclouds.png",
     "bottom": "fabricskyboxes:sky/bottom_nightclouds.png",
@@ -10,6 +9,9 @@
     "east": "fabricskyboxes:sky/east_nightclouds.png",
     "west": "fabricskyboxes:sky/west_nightclouds.png"
   },
+  	"decorations": {
+		"showStars": false
+	},
   "properties": {
     "fade": {
       "startFadeIn": 12750,

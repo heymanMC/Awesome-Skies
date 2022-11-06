@@ -9,6 +9,9 @@
     "east": "fabricskyboxes:sky/east_stars.png",
     "west": "fabricskyboxes:sky/west_stars.png"
   },
+  	"decorations": {
+		"showStars": false
+	},
   "properties": {
     "fade": {
       "startFadeIn": 12500,

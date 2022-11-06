@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "type": "square-textured",
-  "blend": true,
   "textures": {
     "top": "fabricskyboxes:sky/top_sunrise.png",
     "bottom": "fabricskyboxes:sky/bottom_sunrise.png",
