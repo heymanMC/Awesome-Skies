@@ -17,6 +17,13 @@
       "endFadeOut": 13333
     },
     "shouldRotate": false,
+	"changeFog": true,
+    "fogColors": {
+	  "red": 0.392,
+	  "green": 0.373,
+      "blue": 0.537,
+      "alpha": 1.0
+    },
     "rotation": {
       "axis": [
         0.0,
