@@ -9,30 +9,20 @@
     "east": "fabricskyboxes:sky/east_nightclouds.png",
     "west": "fabricskyboxes:sky/west_nightclouds.png"
   },
-  	"decorations": {
-		"showStars": false
-	},
   "properties": {
+    "priority": 6,
     "fade": {
       "startFadeIn": 12750,
       "endFadeIn": 13000,
       "startFadeOut": 23166,
       "endFadeOut": 23416
     },
-    "shouldRotate": false,
-	"changeFog": true,
+    "changeFog": true,
     "fogColors": {
-	  "red": 0.204,
-	  "green": 0.216,
+      "red": 0.204,
+      "green": 0.216,
       "blue": 0.259,
       "alpha": 1.0
-    },
-    "rotation": {
-      "axis": [
-        0.0,
-        0.0,
-        0.0
-      ]
     }
   },
   "conditions": {
@@ -40,7 +30,7 @@
       "minecraft:overworld"
     ]
   },
-    "blend": {
-	"type": "screen"
+  "blend": {
+    "type": "screen"
   }
 }

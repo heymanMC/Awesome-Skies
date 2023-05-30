@@ -10,26 +10,19 @@
     "west": "fabricskyboxes:sky/west_sunrise.png"
   },
   "properties": {
+    "priority": 2,
     "fade": {
       "startFadeIn": 22650,
       "endFadeIn": 23166,
       "startFadeOut": 23333,
       "endFadeOut": 100
     },
-    "shouldRotate": false,
-	"changeFog": true,
+    "changeFog": true,
     "fogColors": {
-	  "red": 0.431,
-	  "green": 0.431,
+      "red": 0.431,
+      "green": 0.431,
       "blue": 0.612,
       "alpha": 1.0
-    },
-    "rotation": {
-      "axis": [
-        0.0,
-        -18.0,
-        0.0
-      ]
     }
   },
   "conditions": {
@@ -37,7 +30,7 @@
       "minecraft:overworld"
     ]
   },
-    "blend": {
-	"type": "screen"
+  "blend": {
+    "type": "screen"
   }
 }

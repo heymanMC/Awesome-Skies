@@ -10,35 +10,28 @@
     "west": "fabricskyboxes:sky/west_rain.png"
   },
   "properties": {
+    "priority": 9,
     "fade": {
       "startFadeIn": 23500,
       "endFadeIn": 0,
       "startFadeOut": 11666,
       "endFadeOut": 12000
     },
-	"transitionSpeed": 0.01,
-	"changeFog": true,
+    "changeFog": true,
     "fogColors": {
-	  "red": 0.659,
-	  "green": 0.71,
+      "red": 0.659,
+      "green": 0.71,
       "blue": 0.773,
       "alpha": 1.0
     },
-    "shouldRotate": true,
     "rotation": {
       "axis": [
         0.0,
         -18.0,
         0.0
-      ]
+      ],
+      "rotationSpeedY": 1
     }
-  },
-  
-  "decorations": {
-	"sun": "minecraft:textures/environment/sun.png",
-	"moon": "minecraft:textures/environment/moon.png",
-	"showSun": false,
-	"showMoon": false
   },
   "conditions": {
     "weather": [

@@ -10,26 +10,19 @@
     "west": "fabricskyboxes:sky/west_sunset.png"
   },
   "properties": {
+    "priority": 1,
     "fade": {
       "startFadeIn": 11500,
       "endFadeIn": 12000,
       "startFadeOut": 13000,
       "endFadeOut": 13333
     },
-    "shouldRotate": false,
-	"changeFog": true,
+    "changeFog": true,
     "fogColors": {
-	  "red": 0.392,
-	  "green": 0.373,
+      "red": 0.392,
+      "green": 0.373,
       "blue": 0.537,
       "alpha": 1.0
-    },
-    "rotation": {
-      "axis": [
-        0.0,
-        -18.0,
-        0.0
-      ]
     }
   },
   "conditions": {

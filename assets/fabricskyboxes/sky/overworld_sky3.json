@@ -10,26 +10,19 @@
     "west": "fabricskyboxes:sky/west.png"
   },
   "properties": {
+    "priority": 3,
     "fade": {
       "startFadeIn": 23500,
       "endFadeIn": 0,
       "startFadeOut": 11666,
       "endFadeOut": 12000
     },
-	"changeFog": true,
-	"fogColors": {
-	  "red": 0.435,
-	  "green": 0.565,
+    "changeFog": true,
+    "fogColors": {
+      "red": 0.435,
+      "green": 0.565,
       "blue": 0.659,
       "alpha": 1.0
-    },
-    "shouldRotate": false,
-    "rotation": {
-      "axis": [
-        0.0,
-        -18.0,
-        0.0
-      ]
     }
   },
   "conditions": {

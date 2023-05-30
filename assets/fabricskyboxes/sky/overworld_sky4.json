@@ -9,23 +9,16 @@
     "east": "fabricskyboxes:sky/east_stars.png",
     "west": "fabricskyboxes:sky/west_stars.png"
   },
-  	"decorations": {
-		"showStars": false
-	},
   "properties": {
+    "priority": 4,
     "fade": {
       "startFadeIn": 12500,
       "endFadeIn": 13000,
       "startFadeOut": 22166,
       "endFadeOut": 23666
     },
-    "shouldRotate": true,
-	"rotation": {
-	  "axis": [
-        0.0,
-        0.0,
-        0.0
-      ]            
+    "rotation": {
+      "rotationSpeedY": 1
     }
   },
   "conditions": {
@@ -33,7 +26,7 @@
       "minecraft:overworld"
     ]
   },
-    "blend": {
-	"type": "false"
+  "blend": {
+    "type": "add"
   }
 }
