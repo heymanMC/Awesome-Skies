@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "type": "overworld",
+  "properties": {
+    "priority": -2147483648,
+    "fade": {
+      "alwaysOn": true
+    }
+  },
+  "conditions": {
+    "worlds": [
+      "minecraft:overworld"
+    ]
+  }
+}
